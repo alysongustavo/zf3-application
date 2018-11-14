@@ -1,5 +1,6 @@
 .vagrant/
 vendor/
+.idea/
 config/development.config.php
 config/autoload/local.php
 data/cache/*
