@@ -19,7 +19,7 @@ return [
                 'params' => [
                     'host' => '127.0.0.1',
                     'user' => 'us_zf3_application',
-                    'password' => 'computacao2014',
+                    'password' => 'cookiesoft2017',
                     'dbname' => 'db_zf3_application'
                 ]
             ]

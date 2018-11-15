@@ -59,11 +59,6 @@ return [
             ]
         ]
     ],
-    'service_manager' => [
-        'factories' => [
-
-        ]
-    ],
     'controllers' => [
         'factories' => [
             Controller\AuthController::class => InvokableFactory::class,

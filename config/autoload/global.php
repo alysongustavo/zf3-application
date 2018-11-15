@@ -21,5 +21,27 @@ return [
                 'table'     => 'migrations',
             ]
         ]
-    ]
+    ],
+    'navigation' => [
+        'default' => [
+            [
+                'label' => 'Home',
+                'route' => 'home',
+            ],
+            [
+                'label' => 'Page #1',
+                'route' => 'home',
+                'pages' => [
+                    [
+                        'label' => 'Child #1',
+                        'route' => 'home',
+                    ],
+                ],
+            ],
+            [
+                'label' => 'Page #2',
+                'route' => 'home',
+            ],
+        ],
+    ],
 ];

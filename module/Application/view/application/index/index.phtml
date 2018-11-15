@@ -1,1 +1,23 @@
-<h1>Module Application, Controller Index, Action Index</h1>
+
+
+<?php
+$this->headTitle('Partial View Demo');
+?>
+
+<h1>Partial View Demo</h1>
+<h1>Typeahead</h1>
+<p>Type a continent name (e.g. Africa) in the text field below:</p>
+<input type="text" class="typeahead" title="Type here"/>
+<table class="table table-striped table-hover">
+    <tr>
+        <th>ID</th>
+        <th>Product</th>
+        <th>Price</th>
+    </tr>
+
+    <?php
+    foreach ($this->products as $product) {
+        echo $this->partial('application/index/table-row', ['product'=>$product]);
+    }
+    ?>
+</table>
